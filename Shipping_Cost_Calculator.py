@@ -1,0 +1,15 @@
+# Shipping Cost Calculator
+
+## Input package weight and shipping rate
+weight = float(input("Enter the package weight in kilograms: "))
+rate = float(input("Enter the shipping rate per kilogram: "))
+
+## Calculate shipping cost
+shipping_cost = weight * rate * 1.1  # Adding a 10% handling fee
+
+## Display the result
+print(f"Shipping Cost: {shipping_cost} USD")
+
+# File added by Sklup55
+
+ # Here is a new update by Sklup55
